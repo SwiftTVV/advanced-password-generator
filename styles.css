@@ -75,3 +75,26 @@ label {
 .btn:hover {
     background-color: #FFFFFF33;
 }
+
+footer {
+    position: fixed;
+    bottom: 0;
+
+}
+
+footer a {
+    text-decoration: none;
+    color: white;
+}
+
+footer a:hover {
+    cursor: pointer;
+    color: rgb(130, 130, 240);
+}
+
+form p {
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
